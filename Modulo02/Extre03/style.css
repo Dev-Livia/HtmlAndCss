@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top,rgb(74, 128, 115),rgb(80, 52, 137));
+  
+}
+
+.cartao {
+  background-color: white;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top,rgb(52, 8, 139),rgb(88, 63, 140));
+  background-repeat: no-repeat;
+  color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 55, 255);
+}
