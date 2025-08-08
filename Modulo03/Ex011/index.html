@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(max-width:600px){
+            .menu {
+            flex-direction: column;
+            align-items: center; /* centraliza verticalmente */
+  }
+         }
+         .menu{
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Menu Responsivo com Flexbox</h2>
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+</body>
+</html>
