@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(43, 64, 82);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media(max-width:600px){
+            .menu{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .menu{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            background-color: rgba(240, 248, 255, 0.557);
+            width: auto;
+            min-height: 70px;
+            border-radius: 10px;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+            transition: 0.5s;
+
+            text-align: center;
+            padding: 5px;
+            display: inline-block;
+            
+        }
+        .menu a:hover{
+            text-decoration: underline;
+            color: aqua;
+            
+            
+            transform: scale(1.2);
+            background-color: white;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Sobre mim</a>
+        <a href="#">Contato</a>
+        <a href="#">Redes Sociais </a>
+        
+    </nav>
+    
+</body>
+</html>
